@@ -5,6 +5,7 @@ import java.util.concurrent.*;
 
 class FutureCallable implements Callable<Integer> {
 Integer a;
+
 public  FutureCallable(Integer a){
     this.a=a;
      }
